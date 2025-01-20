@@ -1,17 +1,17 @@
 .card {
-  width: 250px;
+  width: 15.625rem;
 
   &__info {
-    margin: 25px 0 35px;
+    margin: 1.563rem 0 2.188rem;
     .specs {
       display: flex;
       align-items: center;
-      font-size: 14px;
-      margin-bottom: 15px;
+      font-size: 0.875rem;
+      margin-bottom: 0.938rem;
       > p, 
       > div {
-        border: 1px solid black;
-        height: 30px;
+        border: 0.063rem solid black;
+        height: 1.875rem;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -21,7 +21,7 @@
         width: 40%;
         border-right: none;
         span {
-          margin-left: 8px;
+          margin-left: 0.5rem;
         }
       }
       div:last-of-type {
@@ -32,9 +32,9 @@
 
   .card__button {
     button {
-      border: 1px solid black;
-      height: 30px;
-      width: 70px;
+      border: 0.063rem solid black;
+      height: 1.875rem;
+      width: 4.375rem;
     }
     button:hover {
       transition: all 0.5s ease-in-out;

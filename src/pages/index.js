@@ -27,7 +27,7 @@ export default function Home() {
         <div style={{textAlign: "center", paddingTop: "3.75rem"}} >
           <h1 className={styles.header_title}>Savor the Flavors of <span>Japan</span>
           </h1>
-          <p style={{maxWidth: "650px", margin: "0 auto"}}>Discover authentic Japanese recipes and have the ingredients delivered to your door. From sushi to ramen, make every meal a culinary adventure!</p>
+          <p style={{maxWidth: "40.625rem", margin: "0 auto"}}>Discover authentic Japanese recipes and have the ingredients delivered to your door. From sushi to ramen, make every meal a culinary adventure!</p>
         </div>
         <div className={styles.sample_item__container}>
           <Image src={sampleItem01} alt='sample-item-image01' width={"auto"} height={"auto"}/>
