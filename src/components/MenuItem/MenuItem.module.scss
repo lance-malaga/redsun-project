@@ -1,0 +1,46 @@
+.card {
+  width: 250px;
+
+  &__info {
+    margin: 25px 0 35px;
+    .specs {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      margin-bottom: 15px;
+      > p, 
+      > div {
+        border: 1px solid black;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      > p, 
+      div:first-of-type {
+        width: 40%;
+        border-right: none;
+        span {
+          margin-left: 8px;
+        }
+      }
+      div:last-of-type {
+        width: 20%;
+      }
+    }
+  }
+
+  .card__button {
+    button {
+      border: 1px solid black;
+      height: 30px;
+      width: 70px;
+    }
+    button:hover {
+      transition: all 0.5s ease-in-out;
+      background-color: var(--color-red-orange);
+      border-color: var(--color-red-orange);
+      color: white;
+    }
+  }
+}

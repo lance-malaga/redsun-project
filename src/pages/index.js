@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from 'next/link';
 
-import styles from "@/styles/home.module.scss";
+import styles from "@/styles/Home.module.scss";
 import { 
   landingBowl,
   arrow,
@@ -23,8 +23,8 @@ export default function Home() {
           <Image src={arrow} alt='arrow' width={"auto"} height={"auto"}/>
         </Link>
       </section>
-      <section className={styles.about__section}>
-        <div style={{textAlign: "center"}}>
+      <section className={styles.about__section} id="about__section">
+        <div style={{textAlign: "center", paddingTop: "3.75rem"}} >
           <h1 className={styles.header_title}>Savor the Flavors of <span>Japan</span>
           </h1>
           <p style={{maxWidth: "650px", margin: "0 auto"}}>Discover authentic Japanese recipes and have the ingredients delivered to your door. From sushi to ramen, make every meal a culinary adventure!</p>
