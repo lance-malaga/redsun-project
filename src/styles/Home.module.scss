@@ -18,9 +18,9 @@
 		position: absolute;
 		margin-left: 40.625rem;
 		margin-top: 5rem;
+		transition: all 0.5s ease-in-out;
 	}
 	.action_btn:hover {
-		transition: all 0.5s ease-in-out;
 		background-color: var(--color-red-orange);
 	}
 }

@@ -12,12 +12,12 @@
   .category__item {
     color: black;
     cursor: pointer;
+    transition: all 0.5s ease-in-out;
     &_active {
       color: var(--color-red-orange);
     }
     &:hover {
       color: var(--color-red-orange);
-      transition: all 0.5s ease-in-out;
     }
   }
   .search__container {
